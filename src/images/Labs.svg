@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Add_Program" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+		.st1{display:none;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.2;}
+</style>
+<g>
+	<path d="M65,82H36c-3,0-5.5-2.5-5.5-5.5v-53c0-3,2.5-5.5,5.5-5.5h29c3,0,5.5,2.5,5.5,5.5v53C70.5,79.5,68,82,65,82z M36,21
+		c-1.4,0-2.5,1.1-2.5,2.5v53c0,1.4,1.1,2.5,2.5,2.5h29c1.4,0,2.5-1.1,2.5-2.5v-53c0-1.4-1.1-2.5-2.5-2.5H36z"/>
+</g>
+<g>
+	<path d="M92,82H69c-0.8,0-1.5-0.7-1.5-1.5S68.1,79,69,79h23c1.4,0,2.5-1.1,2.5-2.5v-29c0-1.4-1.1-2.5-2.5-2.5H69
+		c-0.8,0-1.5-0.7-1.5-1.5S68.1,42,69,42h23c3,0,5.5,2.5,5.5,5.5v29C97.5,79.5,95,82,92,82z"/>
+</g>
+<g>
+	<path d="M32,82H8c-3,0-5.5-2.5-5.5-5.5v-29C2.5,44.5,5,42,8,42h24c0.8,0,1.5,0.7,1.5,1.5S32.8,45,32,45H8c-1.4,0-2.5,1.1-2.5,2.5
+		v29C5.5,77.9,6.6,79,8,79h24c0.8,0,1.5,0.7,1.5,1.5S32.8,82,32,82z"/>
+</g>
+<rect x="39" y="30.9" width="22" height="8"/>
+<rect x="44" y="64" width="12" height="18"/>
+<g>
+	<rect x="67.5" y="49.4" width="20" height="2"/>
+</g>
+<g>
+	<rect x="67.5" y="56" width="20" height="2"/>
+</g>
+<g>
+	<rect x="67.5" y="63" width="21" height="2"/>
+</g>
+<g>
+	<rect x="13.5" y="49.5" width="20" height="2"/>
+</g>
+<g>
+	<rect x="13.5" y="56.1" width="20" height="2"/>
+</g>
+<g>
+	<rect x="12.5" y="63.1" width="21" height="2"/>
+</g>
+<g>
+	<rect x="40" y="43" width="20" height="2"/>
+</g>
+<g>
+	<rect x="40" y="50" width="20" height="2"/>
+</g>
+<rect id="_x35_8_x2A_58" x="22.5" y="22.5" class="st0" width="55" height="55"/>
+<rect id="_x36_4_x2A_64" x="19.5" y="19.3" class="st1" width="61" height="61.3"/>
+</svg>
