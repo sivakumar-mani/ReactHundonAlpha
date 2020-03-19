@@ -1,0 +1,81 @@
+// variables 
+
+$text-color: #536094;
+$text-size :8px;
+$page-margin:12px;
+$text-weight500 :500;
+$text-weight600 :600;
+$text-weight700 :700;
+$text-weight800 :800;
+$pad:8px;
+
+body{
+  font-family: 'barlowthin' !important;
+}
+
+@media (max-width: 600px) {
+    .site-header {
+        flex-wrap: wrap;
+        
+    }
+    .site-nav {
+      order: 2;
+      background: #333;
+      width: 100%;
+    }
+  }
+  
+  .subheader {
+    background: transparent;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: $page-margin 0;
+    &--heading{
+      font-size: $text-size *4 !important;
+      font-weight: $text-weight500;
+      &>img{
+        vertical-align: text-top;
+        padding-top: $pad/2;
+        padding-right: $pad *4;
+      }
+    }
+    @media only screen and (max-width: 450px){
+      text-align: center;
+      margin-left: 0;
+      display: block;
+    }
+    
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px;
+  }
+  .actions {
+    margin-left: auto;
+    margin-right: 10px;
+    &--icons{
+      padding: $pad*2;
+      font-size: $text-size*3 !important;
+    }
+  }
+
+  
+  
+  .sign-out-link {
+    color: #62DEBE;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+
+  .fas .fa-cog{
+   background: transparent !important;
+   border:1px solid red;
+  }

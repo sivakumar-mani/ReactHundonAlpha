@@ -1,0 +1,60 @@
+{
+	"familymedicalcondition": [
+		{
+			"name": "Diabetes",
+			"description": "Granpa, Dad, Uncle Sam, Uncle Henry, Aunt Alexandria"
+		},
+		{
+			"name": "Gastrointestinal Disorder",
+			"description": "Granpa, Dad, Uncle Sam"
+		},
+		{
+			"name": "High Cholesterol",
+			"description": "Granpa, Dad, Uncle Sam"
+		},
+		{
+			"name": "Hypertension",
+			"description": "Granpa, Dad, Uncle Sam"
+		},
+		{
+			"name": "Osteoporosis",
+			"description": "Granpa, Dad, Uncle Sam"
+		},
+		{
+			"name": "Cancer",
+			"description": "Granpa, Dad, Uncle Sam"
+		},
+		{
+			"name": "Clotting Disorder",
+			"description": "None"
+		},
+		{
+			"name": "Dementia / Alzheimers",
+			"description": "Granpa, Dad, Uncle Sam"
+		},
+		{
+			"name": "Heart Disease",
+			"description": "Granpa, Dad, Uncle Sam"
+		},
+		{
+			"name": "Eye Disease",
+			"description": "None"
+		},
+		{
+			"name": "Neurologic Disease",
+			"description": "Granpa, Dad, Uncle Sam, Uncle Henry, Aunt Alexandria,Granpa, Dad, Uncle Sam, Uncle Henry, Aunt Alexandria"
+		},
+		{
+			"name": "Psychological Disorder",
+			"description": "None"
+		},
+		{
+			"name": "Septicemia",
+			"description": "None"
+		},
+		{
+			"name": "Stroke / Brain Attack",
+			"description": "None"
+		}
+	]
+}
