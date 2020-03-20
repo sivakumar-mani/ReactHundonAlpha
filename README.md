@@ -10,5 +10,6 @@
     npm install --save reactstrap react react-dom
 
     npm install node-sass
+    npm install react-router-dom
     npm start
 

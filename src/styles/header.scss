@@ -4,4 +4,14 @@
         margin-right: 0px !important;
     }
 
+    .nav-item {
+        padding: 10px;
+    }
+    .menu-link{
+        &>a{
+            color: blue !important;
+        }
+       
+    }
+
 }
