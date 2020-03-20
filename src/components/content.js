@@ -3,7 +3,7 @@ import LeftContent from './left-content';
 import Tree from './Tree/Tree';
 
 function Content() {
-  var familyTree = {
+  var familyTree =  {
     firstfamily: {
       id: "firstfamily",
       name: "Grandpa",

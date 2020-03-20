@@ -1,3 +1,7 @@
-.header{
-    position:sticky;
+.header {
+    .mr-auto, .mx-auto {
+        margin-left: auto !important;
+        margin-right: 0px !important;
+    }
+
 }
