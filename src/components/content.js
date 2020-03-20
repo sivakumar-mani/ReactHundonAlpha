@@ -1,5 +1,6 @@
 import React from 'react';
 import LeftContent from './left-content';
+import LeftContent1 from './left-content1';
 import Tree from './Tree/Tree';
 
 function Content() {
@@ -34,6 +35,7 @@ function Content() {
         {/* left side content Area */}
         <div class="row">
           <div class="panel-left col-md-3">
+          <LeftContent1 />
             <LeftContent />
           </div>
           {/* Right side content Area */}

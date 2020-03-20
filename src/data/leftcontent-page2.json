@@ -1,0 +1,31 @@
+{
+    "medicalcondition": [
+        {
+            "header1": "Medical Condition",
+            "header2": "Onset"
+        }
+    ],
+    "medicallist": [
+        {
+            "name": "Diabetes",
+            "onset": 27,
+            "type": "Type1",
+            "dose": "Da",
+            "part": "Part1"
+        },
+        {
+            "name": "High Cholesterol",
+            "onset": 56,
+            "type": "",
+            "dose": "250 mg/dl",
+            "part": ""
+        },
+        {
+            "name": "Cancer",
+            "onset": 64,
+            "type": "Lung Cancer",
+            "dose": "Left Lung",
+            "part": "stage 1"
+        }
+    ]
+}
