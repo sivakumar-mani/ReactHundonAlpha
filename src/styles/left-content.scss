@@ -22,7 +22,6 @@ $pad:8px;
   height: 100%;
   border-top-right-radius: 10px;
   box-shadow: 2px -1px 19px 0px rgba(204, 204, 204, 1);
-
   &--heading {
     font-size: $text-size *4 !important;
     font-weight: $text-weight500;
@@ -80,10 +79,31 @@ $pad:8px;
       font-size: $ft-size14;
     }
   }
-  .action-items{
+  .action-items, .members-items{
     display: flex;
     flex-direction: row;
     margin-left: auto;
+    &--input-name {
+      width: 178px;
+      height: 28px;
+      border-radius: 4px;
+      border: solid 1px $light-grey-blue;
+      margin-left: 8px;
+    }
+    &--input-age {
+      width: 30px;
+      height: 28px;
+      border-radius: 4px;
+      margin-top: 5px;
+      border: solid 1px $light-grey-blue;
+      margin-left: 8px;
+    }
+    &> select {
+      margin: 5px 8px;
+      border: 0px;
+      border-bottom: 1px solid $light-grey-blue;
+      outline: none;
+    }
     &>a{
       color:$primary-link ;
       font-size: 12px;
@@ -126,6 +146,15 @@ $pad:8px;
     }
     .no-border{
       border: none;
+    }
+    .member_bg {
+      width: 81px;
+      height: 103px;
+      border-radius: 8px;
+      border: solid 2px $text-color;
+      background-color: $light-grey-blue;
+      margin-left: 12px;
+      margin-top: 12px;
     }
   }
 

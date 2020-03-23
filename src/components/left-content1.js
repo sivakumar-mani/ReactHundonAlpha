@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/left-content.scss'
 import data from "../data/leftcontent-page2";
+import Profile from '../images/profile-icon.png'
 
 function LeftContent1() {
     return (
@@ -15,8 +16,38 @@ function LeftContent1() {
                             <a href="#"><i className="fa fa-edit"></i></a>
                         </div>
                     </div>
-                </div>
-                <div class="LHS-page2">
+                    <div class="row no-border">
+                                    <div class="col-md-3">
+                                        <img className="member_bg" src={Profile} alt=""/>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="members-items">
+                                            <a href="#">Paternal Grandfather</a>
+                                            <a href="#">Adopted</a>
+                                        </div>
+                                        <div class="members-items">
+                                           <input className="members-items--input-name" type="text" placeholder="Ted Mochie"/>
+                                        </div>
+                                        <div class="members-items">
+                                           <input className="members-items--input-age" type="text" placeholder="78"/>
+                                           <select>
+                                               <option>Years</option>
+                                               <option>2020</option>
+                                           </select>
+                                        </div>
+                                        <div class="members-items">
+                                           <select>
+                                               <option>Male</option>
+                                               <option>Female</option>
+                                           </select>
+                                           <select>
+                                               <option>Living</option>
+                                               <option>Living</option>
+                                           </select>
+                                        </div>     
+                                    </div>
+                                </div>
+                
                     {
                         data.medicalcondition.map((headings, i) => {
                             return (
@@ -31,9 +62,6 @@ function LeftContent1() {
                             );
                         })
                     }
-
-                </div>
-                <div class="LHS-page2">
                     {
                         data.medicallist.map((items, i) => {
                             return (
