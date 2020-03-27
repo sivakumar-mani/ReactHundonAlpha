@@ -11,5 +11,6 @@
 
     npm install node-sass
     npm install react-router-dom
+    npm add basicprimitivesreact
     npm start
 

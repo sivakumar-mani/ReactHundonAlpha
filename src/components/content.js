@@ -2,6 +2,7 @@ import React from 'react';
 import LeftContent from './left-content';
 import LeftContent1 from './left-content1';
 import Tree from './Tree/Tree';
+import FamilyTree from './family-tree';
 
 import { Switch, Route } from "react-router-dom";
 
@@ -53,6 +54,7 @@ function Content() {
         {/* Right side content Area */}
         <div class="panel-right col-md-8">
           <div class="row">
+            <FamilyTree />
             <Tree root='firstfamily' datalist={JSON.parse(JSON.stringify(familyTree))} />
           </div>
         </div>
