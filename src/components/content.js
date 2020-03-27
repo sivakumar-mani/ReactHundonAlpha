@@ -41,7 +41,6 @@ function Content() {
         <div class="panel-left col-md-3">
 
           <Switch>
-
             <Route path="/page2">
               <LeftContent1 />
             </Route>
@@ -54,8 +53,16 @@ function Content() {
         {/* Right side content Area */}
         <div class="panel-right col-md-8">
           <div class="row">
-            <FamilyTree />
+          <Switch>
+            <Route path="/page2">
             <Tree root='firstfamily' datalist={JSON.parse(JSON.stringify(familyTree))} />
+            </Route>
+            <Route path="/">
+            <FamilyTree />
+            </Route>
+          </Switch>
+           
+            
           </div>
         </div>
       </div>
