@@ -3,6 +3,8 @@ import LeftContent from './left-content';
 import LeftContent1 from './left-content1';
 import Tree from './Tree/Tree';
 import FamilyTree from './family-tree';
+import FormBlock from './formblock';
+
 
 import { Switch, Route } from "react-router-dom";
 
@@ -55,6 +57,7 @@ function Content() {
           <div class="row">
           <Switch>
             <Route path="/page2">
+              <FormBlock />
             <Tree root='firstfamily' datalist={JSON.parse(JSON.stringify(familyTree))} />
             </Route>
             <Route path="/">
